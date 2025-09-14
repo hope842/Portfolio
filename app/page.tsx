@@ -33,7 +33,7 @@ export default function PortfolioFr() {
     <html>
     <head>
       <meta charset="UTF-8">
-      <title>CV - Slim Chouaib</title>
+      <title>CV - Amal Benzarti</title>
       <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; color: #333; }
         .header { text-align: center; border-bottom: 2px solid #2563eb; padding-bottom: 20px; margin-bottom: 30px; }
