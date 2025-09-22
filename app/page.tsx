@@ -238,7 +238,7 @@ export default function PortfolioFr() {
     // Créer un lien temporaire pour télécharger
     const link = document.createElement("a")
     link.href = url
-    link.download = "CV_Slim_Chouaib.html"
+    link.download = "CV_Amal_El_Benzarti.html"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -297,7 +297,7 @@ export default function PortfolioFr() {
               <button
                 className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium hover:scale-105 transition-transform"
                 onClick={() => {
-                  window.open('https://outlook.live.com/mail/0/deeplink/compose?to=slimchouaib2003@gmail.com&subject=Contact%20depuis%20portfolio', '_blank');
+                  window.open('https://outlook.live.com/mail/0/deeplink/compose?to=benzartiamal71@gmail.com&subject=Contact%20depuis%20portfolio', '_blank');
                   setShowEmailModal(false);
                 }}
               >
@@ -306,7 +306,7 @@ export default function PortfolioFr() {
               <button
                 className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-red-500 to-pink-500 text-white font-medium hover:scale-105 transition-transform"
                 onClick={() => {
-                  window.open('https://mail.google.com/mail/?view=cm&to=slimchouaib2003@gmail.com&su=Contact%20depuis%20portfolio', '_blank');
+                  window.open('https://mail.google.com/mail/?view=cm&to=benzartiamal71@gmail.com&su=Contact%20depuis%20portfolio', '_blank');
                   setShowEmailModal(false);
                 }}
               >
@@ -316,7 +316,7 @@ export default function PortfolioFr() {
               <button
                 className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-medium hover:scale-105 transition-transform"
                 onClick={() => {
-                  window.open('https://compose.mail.yahoo.com/?to=slimchouaib2003@gmail.com&subj=Contact%20depuis%20portfolio', '_blank');
+                  window.open('https://compose.mail.yahoo.com/?to=benzartiamal71@gmail.com&subj=Contact%20depuis%20portfolio', '_blank');
                   setShowEmailModal(false);
                 }}
               >
@@ -326,7 +326,7 @@ export default function PortfolioFr() {
               <button
                 className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-gray-500 to-gray-700 text-white font-medium hover:scale-105 transition-transform"
                 onClick={() => {
-                  window.open('mailto:slimchouaib2003@gmail.com?subject=Contact%20depuis%20portfolio', '_blank');
+                  window.open('mailto:benzartiamal71@gmail.com?subject=Contact%20depuis%20portfolio', '_blank');
                   setShowEmailModal(false);
                 }}
               >
@@ -349,7 +349,7 @@ export default function PortfolioFr() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Slim Chouaib
+                Amal El Benzarti
               </span>
             </div>
 
@@ -375,7 +375,7 @@ export default function PortfolioFr() {
 
             <div className="flex gap-3">
               <a
-                href="/SlimChouaib-CV.pdf"
+                href="/Amal-Benzarti-ResumeFR-2025.pdf"
                 download
                 className="inline-flex items-center border border-slate-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 style={{ textDecoration: 'none' }}
@@ -406,24 +406,23 @@ export default function PortfolioFr() {
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
                 <Award className="w-4 h-4 mr-2" />
-                Président Fortum Junior Entreprise
+                Étudiante en Cybersécurité
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold text-slate-800 leading-tight">
-                Slim
+                Amal
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent block">
-                  Chouaib
+                  El Benzarti
                 </span>
               </h1>
 
               <p className="text-xl text-slate-600 leading-relaxed">
-                Étudiant Ingénieur en <span className="font-semibold text-blue-600">IA & Data Science</span>
+                Étudiante Ingénieur en <span className="font-semibold text-blue-600">Sécurité des systèmes informatiques et des réseaux</span>
               </p>
 
               <p className="text-lg text-slate-500 leading-relaxed max-w-2xl">
-                Passionné par la construction de solutions IA innovantes et la transformation d'idées en applications
-                concrètes et efficaces. Actuellement en 3ème année d'ingénierie, alliant leadership et innovation au
-                quotidien.
+                Passionnée par la cybersécurité et la protection des systèmes informatiques. Actuellement en dernière année d'ingénierie,
+                j'explore la sécurité offensive et défensive tout en me préparant à la gouvernance, le risque et la conformité (GRC).
               </p>
             </div>
 
@@ -431,22 +430,22 @@ export default function PortfolioFr() {
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors cursor-pointer">
                 <Mail className="w-5 h-5" />
-                <span>slimchouaib2003@gmail.com</span>
+                <span>benzartiamal71@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors cursor-pointer">
                 <Phone className="w-5 h-5" />
-                <span>+216 55588192</span>
+                <span>+216 99474799</span>
               </div>
               <div className="flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors cursor-pointer">
                 <MapPin className="w-5 h-5" />
-                <span>Manar 2, Ariana, Tunisie</span>
+                <span>Soukra, Ariana, Tunisie</span>
               </div>
             </div>
 
             {/* Technologies principales */}
             <div className="flex flex-wrap gap-2">
               {[
-                "Python", "R", "Machine Learning", "Deep Learning", "Azure", "Sql/NoSql", "Data Engineering", "Data Science", "Leadership"
+                "Python", "Java", "Cybersécurité", "Penetration Testing", "Wireshark", "ELK Stack", "Suricata", "DevSecOps", "GRC"
               ].map((tech, index) => (
                 <Badge
                   key={tech}
@@ -490,8 +489,8 @@ export default function PortfolioFr() {
               {/* Photo principale */}
               <div className="relative z-10 w-80 h-80 mx-auto">
                 <Image
-                  src="/images/slim-portrait.jpg"
-                  alt="Slim Chouaib - Portrait professionnel"
+                  src="/images/amal-portrait.jpeg"
+                  alt="Amal El Benzarti - Portrait professionnel"
                   fill
                   className="rounded-2xl object-cover shadow-2xl hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'top' }}
@@ -519,29 +518,29 @@ export default function PortfolioFr() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-slate-600 leading-relaxed">
-                Je suis un étudiant passionné qui vise l'excellence dans tout ce que j'entreprends. Mon ambition est de
+                Je suis une étudiante passionnée par la cybersécurité qui vise l'excellence dans tout ce que j'entreprends. Mon ambition est de
                 bâtir un parcours où mon nom résonne dans le domaine de la{" "}
-                <span className="font-semibold text-blue-600">Data et de l'IA</span>, reconnu pour mes compétences
-                techniques et ma capacité à transformer les idées en solutions concrètes et efficaces.
+                <span className="font-semibold text-blue-600">sécurité informatique</span>, reconnue pour mes compétences
+                techniques et ma capacité à protéger les systèmes et données.
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
                 Je veux être quelqu'un dont les réalisations parlent d'elles-mêmes et inspirent confiance aux équipes et
-                entreprises avec qui je collabore. En tant que{" "}
-                <span className="font-semibold text-blue-600">Président de Fortum Junior Entreprise</span>, j'allie
-                leadership et innovation au quotidien, dirigeant des projets qui ont un impact réel.
+                entreprises avec qui je collabore. Actuellement en{" "}
+                <span className="font-semibold text-blue-600">dernière année d'ingénierie</span>, j'explore la sécurité offensive et défensive
+                tout en me préparant à la gouvernance, le risque et la conformité (GRC).
               </p>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-4 bg-blue-50 rounded-lg hover:scale-105 transition-transform">
                   <Code className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-                  <h3 className="font-semibold text-slate-800">Développement</h3>
-                  <p className="text-sm text-slate-600">Full-Stack & IA</p>
+                  <h3 className="font-semibold text-slate-800">Cybersécurité</h3>
+                  <p className="text-sm text-slate-600">Offensive & Défensive</p>
                 </div>
                 <div className="text-center p-4 bg-indigo-50 rounded-lg hover:scale-105 transition-transform">
                   <Users className="w-8 h-8 text-indigo-600 mx-auto mb-2" />
-                  <h3 className="font-semibold text-slate-800">Leadership</h3>
-                  <p className="text-sm text-slate-600">Président FJE</p>
+                  <h3 className="font-semibold text-slate-800">GRC</h3>
+                  <p className="text-sm text-slate-600">Gouvernance & Conformité</p>
                 </div>
               </div>
             </div>
@@ -578,29 +577,28 @@ export default function PortfolioFr() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle className="text-xl text-slate-800">Développeur IA et Data Engineering</CardTitle>
-                    <CardDescription className="text-lg font-medium text-blue-600">BiGuard - Biware</CardDescription>
+                    <CardTitle className="text-xl text-slate-800">Stagiaire DevSecOps</CardTitle>
+                    <CardDescription className="text-lg font-medium text-blue-600">SIGA</CardDescription>
                   </div>
                   <Badge variant="outline" className="bg-blue-50">
-                    Juin - Août 2025
+                    Juillet - Août 2025
                   </Badge>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-slate-600 mb-4 font-medium">Application d'Assistant Financier Intelligent</p>
+                <p className="text-slate-600 mb-4 font-medium">Pipeline CI/CD sécurisé avec approche Shift-Left</p>
                 <ul className="list-disc list-inside space-y-2 text-slate-600 mb-6">
                   <li>
-                    Développement complet d'une application web de gestion budgétaire avec recommandations automatiques
+                    Conception et mise en place d'un pipeline CI/CD sécurisé suivant l'approche Shift-Left
                   </li>
-                  <li>Mise en place d'un clustering intelligent pour classifier automatiquement les transactions</li>
+                  <li>Intégration de Dependency-Track (SCA), SonarQube (SAST) et OWASP ZAP (DAST)</li>
                   <li>
-                    Conception de modèles d'anomaly detection pour identifier des comportements financiers suspects
+                    Développement d'un outil CLI pour centraliser la configuration et automatiser l'exécution des outils
                   </li>
-                  <li>Création d'un chatbot interactif pour accompagner les utilisateurs</li>
-                  <li>Déploiement cloud sur Microsoft Azure avec APIs, bases de données et pipelines</li>
+                  <li>Sécurisation du cycle de vie du développement logiciel et garantie de conformité continue</li>
                 </ul>
                 <div className="flex flex-wrap gap-2">
-                  {["Python", "Scikit-Learn", "Flask", "React.js", "Azure", "SQL", "Plaid API"].map((tech) => (
+                  {["Python", "DevSecOps", "CI/CD", "Dependency-Track", "SonarQube", "OWASP ZAP", "CLI"].map((tech) => (
                     <Badge key={tech} variant="secondary" className="hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
@@ -613,24 +611,24 @@ export default function PortfolioFr() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle className="text-xl text-slate-800">Développeur d'Application RH</CardTitle>
+                    <CardTitle className="text-xl text-slate-800">Stagiaire au sein de l'équipe SOC</CardTitle>
                     <CardDescription className="text-lg font-medium text-green-600">
-                      Banque de Financement des PME (BFPME)
+                      Agence nationale de la cybersécurité (ANCS)
                     </CardDescription>
                   </div>
                   <Badge variant="outline" className="bg-green-50">
-                    Juin - Août 2024
+                    Juillet - Août 2024
                   </Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2 text-slate-600 mb-6">
-                  <li>Développement d'une application de gestion des congés personnalisable</li>
-                  <li>Implémentation de la reconnaissance faciale pour l'authentification</li>
-                  <li>Personnalisation des rôles, départements et hiérarchies</li>
+                  <li>Mise en place et configuration d'un IDS Suricata associé à la pile ELK sur un serveur Ubuntu</li>
+                  <li>Adaptation des règles de détection et simulation d'attaques depuis Kali Linux</li>
+                  <li>Test et amélioration de la précision et l'efficacité du système de détection</li>
                 </ul>
                 <div className="flex flex-wrap gap-2">
-                  {["Java", "JavaFX", "MySQL", "AWS Rekognition"].map((tech) => (
+                  {["Suricata", "ELK Stack", "Ubuntu", "Kali Linux", "IDS"].map((tech) => (
                     <Badge key={tech} variant="secondary" className="hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
@@ -655,28 +653,28 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-t-lg">
                 <CardTitle className="flex items-center gap-2 text-xl">
                   <Brain className="w-6 h-6" />
-                  NSM VISION 2025
+                  Lab Active Directory
                 </CardTitle>
                 <CardDescription className="text-blue-100">
-                  Plateforme SaaS de gestion et d'analyse du crédit pour les PME
+                  Mise en place et pentest d'un laboratoire Active Directory
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
                 <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
-                  <li>Solution cloud pour automatiser l'analyse des risques de crédit via IA et ML</li>
-                  <li>Tableaux de bord interactifs et reporting via Power BI</li>
-                  <li>Chatbot intelligent pour guider les demandes de crédit</li>
-                  <li>Architecture évolutive et sécurisée</li>
+                  <li>Mise en place d'un laboratoire Active Directory avec contrôleur de domaine et machine victime</li>
+                  <li>Ajout automatisé d'utilisateurs via script GitHub</li>
+                  <li>Réalisation de tests de pénétration sur les services et configurations</li>
+                  <li>Scénarios d'attaques réalistes et documentation des vulnérabilités</li>
                 </ul>
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {["AWS", "Python", "Django", "React.js", "MongoDB", "Power BI"].map((tech) => (
+                  {["Active Directory", "PowerShell", "Penetration Testing", "Windows Server", "Kali Linux"].map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
                   ))}
                 </div>
                 <a
-                  href="https://github.com/slimchouaib1/NSM-Vision-AI-Project"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center w-full justify-center border border-blue-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-blue-50"
@@ -692,27 +690,27 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-t-lg">
                 <CardTitle className="flex items-center gap-2 text-xl">
                   <Database className="w-6 h-6" />
-                  MEMORA 2025
+                  Réseau VPN/MPLS
                 </CardTitle>
                 <CardDescription className="text-purple-100">
-                  Système d'aide à la décision pour le diagnostic d'Alzheimer
+                  Conception et configuration d'une architecture réseau VPN/MPLS sécurisée
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
                 <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
-                  <li>Prédiction de la maladie d'Alzheimer à partir de données cliniques</li>
-                  <li>Clustering non supervisé pour améliorer les performances</li>
-                  <li>Interface web avec Shiny pour la saisie et prédiction</li>
+                  <li>Conception et configuration d'une architecture réseau VPN/MPLS sécurisée</li>
+                  <li>Mise en œuvre de la segmentation du trafic</li>
+                  <li>Garantie de la confidentialité et de la disponibilité des données échangées</li>
                 </ul>
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {["R", "Random Forest", "KNN", "SVM", "Shiny", "Python"].map((tech) => (
+                  {["VPN", "MPLS", "Réseau", "Sécurité", "Architecture"].map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
                   ))}
                 </div>
                 <a
-                  href="https://github.com/slimchouaib1/Memora-R-Project"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center w-full justify-center border border-purple-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-purple-50"
@@ -728,27 +726,28 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-t-lg">
                 <CardTitle className="flex items-center gap-2 text-xl">
                   <Brain className="w-6 h-6" />
-                  AI Healthcare Assistant
+                  Système de Surveillance RGPD
                 </CardTitle>
                 <CardDescription className="text-green-100">
-                  Hackathon - Assistant IA pour les professionnels de santé
+                  Système de surveillance par reconnaissance faciale conforme au RGPD
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
                 <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
-                  <li>Assistant IA pour répondre aux questions médicales</li>
-                  <li>Automatisation des flux de travail avec modèles IA</li>
-                  <li>Interface de gestion des tâches et automatisation des décisions</li>
+                  <li>Système de surveillance par reconnaissance faciale conforme au RGPD</li>
+                  <li>Encodage immédiat des photos sans stockage direct</li>
+                  <li>Base de données décentralisée pour renforcer la sécurité</li>
+                  <li>Envoi d'alertes par e-mail et capture d'écran en cas d'intrusion</li>
                 </ul>
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {["Python", "Llama", "OpenAI", "NLP", "TensorFlow", "Flask"].map((tech) => (
+                  {["Python", "Reconnaissance Faciale", "RGPD", "Sécurité", "Alertes"].map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
                   ))}
                 </div>
                 <a
-                  href="https://github.com/slimchouaib1/AI-ARTSS-Hackathon"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center w-full justify-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-green-50"
@@ -764,26 +763,26 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-t-lg">
                 <CardTitle className="flex items-center gap-2 text-xl">
                   <Cloud className="w-6 h-6" />
-                  BiGuard Application
+                  Stage d'Initiation
                 </CardTitle>
-                <CardDescription className="text-orange-100">Assistant Financier Intelligent avec ML</CardDescription>
+                <CardDescription className="text-orange-100">Tunisie Telecom - Développement d'application</CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
                 <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
-                  <li>Gestion budgétaire avec recommandations automatiques</li>
-                  <li>Classification intelligente des transactions par clustering</li>
-                  <li>Détection d'anomalies pour comportements suspects</li>
-                  <li>Chatbot interactif pour guidance financière</li>
+                  <li>Développement et optimisation d'une plateforme de gestion de tâches</li>
+                  <li>Apprentissage des bonnes pratiques de développement</li>
+                  <li>Intégration dans un environnement professionnel</li>
+                  <li>Collaboration avec des équipes techniques</li>
                 </ul>
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {["Python", "Scikit-Learn", "Flask", "React.js", "Azure"].map((tech) => (
+                  {["Java", "Développement", "Optimisation", "Gestion de Projet"].map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
                   ))}
                 </div>
                 <a
-                  href="https://github.com/slimchouaib1/BiGuard-AI-Project"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center w-full justify-center border border-orange-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-orange-50"
@@ -816,7 +815,7 @@ export default function PortfolioFr() {
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["Python", "Java", "C++", "PHP", "R", "SQL"].map((lang) => (
+                  {["Python", "Java", "PHP", "JavaScript", "SQL", "PowerShell"].map((lang) => (
                     <Badge key={lang} className="hover:scale-105 transition-transform bg-blue-100 text-blue-800">
                       {lang}
                     </Badge>
@@ -829,12 +828,12 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-t-lg">
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Brain className="w-5 h-5" />
-                  ML & Deep Learning
+                  Outils de Sécurité Défensive
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["TensorFlow", "Scikit-learn", "PyTorch", "Keras", "XGBoost", "MLflow", "LightGBM"].map((tool) => (
+                  {["Wireshark", "ELK Stack", "Suricata", "IDS", "SIEM", "Log Analysis"].map((tool) => (
                     <Badge key={tool} className="hover:scale-105 transition-transform bg-purple-100 text-purple-800">
                       {tool}
                     </Badge>
@@ -847,12 +846,12 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-green-500 to-green-600 text-white rounded-t-lg">
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Code className="w-5 h-5" />
-                  Frameworks Web
+                  Outils de Penetration Testing
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["Django", "React.js", "Angular", "Flask", "Symfony", "Bootstrap"].map((framework) => (
+                  {["Nmap", "Metasploit", "Burp Suite", "OWASP ZAP", "Hydra", "John the Ripper"].map((framework) => (
                     <Badge key={framework} className="hover:scale-105 transition-transform bg-green-100 text-green-800">
                       {framework}
                     </Badge>
@@ -865,12 +864,12 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-t-lg">
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Cloud className="w-5 h-5" />
-                  Cloud & Infrastructure
+                  DevSecOps & CI/CD
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["Azure", "AWS", "Docker", "CI/CD", "SaaS Architecture"].map((cloud) => (
+                  {["Docker", "CI/CD", "DevSecOps", "Dependency-Track", "SonarQube"].map((cloud) => (
                     <Badge key={cloud} className="hover:scale-105 transition-transform bg-orange-100 text-orange-800">
                       {cloud}
                     </Badge>
@@ -883,12 +882,12 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-indigo-500 to-indigo-600 text-white rounded-t-lg">
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Database className="w-5 h-5" />
-                  Data & Analytics
+                  Frameworks Web
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["Power BI", "Tableau", "Hadoop", "Spark", "Kafka", "ETL"].map((data) => (
+                  {["Django", "Flask", "Symfony", "React.js", "Bootstrap"].map((data) => (
                     <Badge key={data} className="hover:scale-105 transition-transform bg-indigo-100 text-indigo-800">
                       {data}
                     </Badge>
@@ -901,12 +900,12 @@ export default function PortfolioFr() {
               <CardHeader className="bg-gradient-to-r from-pink-500 to-pink-600 text-white rounded-t-lg">
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Brain className="w-5 h-5" />
-                  IA & NLP
+                  GRC & Conformité
                 </CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["GPT", "BERT", "Hugging Face", "SpaCy", "Computer Vision", "Transformers", "OpenAI"].map((ai) => (
+                  {["GRC", "RGPD", "ISO 27001", "Risk Management", "Compliance", "Audit"].map((ai) => (
                     <Badge key={ai} className="hover:scale-105 transition-transform bg-pink-100 text-pink-800">
                       {ai}
                     </Badge>
@@ -932,14 +931,14 @@ export default function PortfolioFr() {
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
                     <Users className="w-5 h-5 text-purple-600" />
-                    Président, Fortum Junior Entreprise
+                    Étudiante en Cybersécurité
                   </CardTitle>
-                  <CardDescription>2024 - Présent</CardDescription>
+                  <CardDescription>2023 - Présent</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Direction de l'organisation et pilotage d'initiatives d'innovation. Organisation récente d'ateliers
-                    IA & Cybersécurité et hackathons, supervision d'événements techniques et coordination d'équipes.
+                    Spécialisation en sécurité des systèmes informatiques et des réseaux. Exploration de la sécurité offensive et défensive,
+                    préparation à la gouvernance, le risque et la conformité (GRC).
                   </p>
                 </CardContent>
               </Card>
@@ -949,14 +948,14 @@ export default function PortfolioFr() {
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
                     <Mic className="w-5 h-5 text-orange-600" />
-                    Organisateur Global Game Jam
+                    Stage d'Initiation
                   </CardTitle>
-                  <CardDescription>2021 - 2022</CardDescription>
+                  <CardDescription>Juillet 2022</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Organisation d'événements internationaux de développement de jeux vidéo au sein du Gaming Lab
-                    Tek-up, gestion de la logistique et animation d'équipes de développeurs du monde entier.
+                    Stage d'initiation chez Tunisie Telecom, développement et optimisation d'une plateforme de gestion de tâches.
+                    Première expérience professionnelle dans le domaine du développement d'applications.
                   </p>
                 </CardContent>
               </Card>
@@ -1043,7 +1042,7 @@ export default function PortfolioFr() {
                     <span className="text-blue-600 font-bold text-sm">3A</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-800">Ingénierie IA et Data Science</h4>
+                    <h4 className="font-semibold text-slate-800">Ingénierie en Sécurité des systèmes informatiques et des réseaux</h4>
                     <p className="text-slate-600">TEK-UP - École Supérieure Privée des Technologies</p>
                     <p className="text-sm text-slate-500">2023 - Présent (3ème Année)</p>
                   </div>
@@ -1221,23 +1220,23 @@ export default function PortfolioFr() {
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <a
-              href="https://outlook.live.com/mail/0/deeplink/compose?to=slimchouaib2003@gmail.com&subject=Contact%20depuis%20portfolio"
+              href="https://outlook.live.com/mail/0/deeplink/compose?to=benzartiamal71@gmail.com&subject=Contact%20depuis%20portfolio"
               className="flex flex-col items-center p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
               style={{ textDecoration: 'none' }}
             >
               <Mail className="w-8 h-8 mb-4 text-blue-400" />
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-slate-300">slimchouaib2003@gmail.com</p>
+              <p className="text-slate-300">benzartiamal71@gmail.com</p>
             </a>
             <div className="flex flex-col items-center p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
               <Phone className="w-8 h-8 mb-4 text-green-400" />
               <h3 className="font-semibold mb-2">Téléphone</h3>
-              <p className="text-slate-300">+216 55588192</p>
+              <p className="text-slate-300">+216 99474799</p>
             </div>
             <div className="flex flex-col items-center p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
               <MapPin className="w-8 h-8 mb-4 text-red-400" />
               <h3 className="font-semibold mb-2">Localisation</h3>
-              <p className="text-slate-300">Manar 2, Ariana, Tunisie</p>
+              <p className="text-slate-300">Soukra, Ariana, Tunisie</p>
             </div>
           </div>
 
@@ -1251,33 +1250,13 @@ export default function PortfolioFr() {
               Me Contacter
             </button>
             <a
-              href="/SlimChouaib-CV.pdf"
+              href="/Amal-Benzarti-ResumeFR-2025.pdf"
               download
               className="inline-flex items-center border border-slate-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
               style={{ textDecoration: 'none' }}
             >
               <Download className="w-4 h-4 mr-2" />
               Télécharger CV
-            </a>
-            <a
-              href="https://github.com/slimchouaib1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center border border-slate-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              style={{ textDecoration: 'none' }}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 mr-2"><path strokeLinecap="round" strokeLinejoin="round" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.867 8.166 6.839 9.489.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.529 2.341 1.088 2.91.832.091-.646.35-1.088.636-1.339-2.221-.253-4.555-1.111-4.555-4.945 0-1.092.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.687 0 3.842-2.337 4.688-4.566 4.937.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .268.18.579.688.481C19.135 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" /></svg>
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/slim-chouaib-824a44351"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center border border-slate-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              style={{ textDecoration: 'none' }}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 mr-2"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.968v5.699h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.6 2.001 3.6 4.601v5.595z"/></svg>
-              LinkedIn
             </a>
           </div>
         </div>
@@ -1286,7 +1265,7 @@ export default function PortfolioFr() {
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2025 Slim Chouaib. Tous droits réservés.</p>
+          <p>&copy; 2025 Amal El Benzarti. Tous droits réservés.</p>
         </div>
       </footer>
       </div>

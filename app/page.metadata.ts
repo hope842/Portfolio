@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Slim Chouaib",
+  title: "Amal's Portfolio",
   icons: {
     icon: "/images/amal-portrait.jpg",
   },
