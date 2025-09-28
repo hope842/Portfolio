@@ -4,13 +4,13 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Slim Chouaib',
-  description: 'Portfolio de Slim Chouaib - Ingénieur IA & Data Science',
+  title: 'Amal El Benzarti',
+  description: 'Portfolio d\'Amal El Benzarti - Ingénieur en Sécurité des systèmes informatiques et des réseaux',
   generator: 'Next.js',
   icons: {
-    icon: '/images/slim-portrait.jpg',
-    shortcut: '/images/slim-portrait.jpg',
-    apple: '/images/slim-portrait.jpg',
+    icon: '/images/amal-portrait.jpeg',
+    shortcut: '/images/amal-portrait.jpeg',
+    apple: '/images/amal-portrait.jpeg',
   },
 }
 
