@@ -767,6 +767,82 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               </CardContent>
             </Card>
 
+            <Card className="group hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] border-0 shadow-lg">
+              <CardHeader className="bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-t-lg">
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Brain className="w-6 h-6" />
+                 Mise en place d’une architecture de haute disponibilité d’ERP (ODOO) applicable pour 
+                 une entreprise active dans le domaine des TIC afin de se conformer aux exigences d’un SMSI selon l’ISO 27001 :
+                </CardTitle>
+                <CardDescription className="text-green-100">
+                  Architecture de haute disponibilité d’ERP (ODOO)
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-6">
+                <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
+                  <li>Conception et mise en œuvre d’une architecture haute disponibilité pour un environnement ERP (Odoo), en mettant l’accent sur la résilience et la continuité de service.</li>
+                  <li>Application des bonnes pratiques ISMS / ISO 27001, avec focus sur disponibilité, intégrité et sécurité des données.</li>
+                  <li>Déploiement sur VM Red Hat minimalistes, simulant un environnement d’entreprise réel, pour renforcer la rigueur opérationnelle et la gestion à distance via SSH.</li>
+                  <li>Orchestration des services avec Kubernetes, garantissant redondance applicative et persistance des données.</li>
+                </ul>
+                <div className="flex flex-wrap gap-1 mb-4">
+                  {["Kubernetes", "Podman", "ISO 27001 / ISMS", "PostgreSQL", "NFS", "Load Balancer"].map((tech) => (
+                    <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
+                      {tech}
+                    </Badge>
+                  ))}
+                </div>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center w-full justify-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-green-50"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  Voir le projet
+                </a>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] border-0 shadow-lg">
+              <CardHeader className="bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-t-lg">
+                <CardTitle className="flex items-center gap-2 text-xl">
+                  <Brain className="w-6 h-6" />
+                  Mise en place d'une architecture de haute disponibilité basée sur des outils de prévention anti-DDoS, open source
+                </CardTitle>
+                <CardDescription className="text-green-100">
+                  Architecture de haute disponibilité basée sur des outils de prévention anti-DDoS
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-6">
+                <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
+                  <li>Conception et mise en œuvre d’une architecture haute disponibilité pour un environnement ERP (Odoo), intégrant redondance applicative et réplication de base de données.</li>
+                  <li>Renforcement de la sécurité et prévention des attaques DDoS grâce à l’utilisation de NGINX Ingress Controller et CrowdSec pour le routage, la terminaison SSL, le WAF et la limitation de débit.</li>
+                  <li>Application des bonnes pratiques ISMS / ISO 27001, avec focus sur disponibilité, intégrité et sécurité des données.</li>
+                  <li>Déploiement sur VM Red Hat minimalistes, simulant un environnement d’entreprise réel, avec gestion distante via SSH.</li>
+                  <li>Orchestration des services avec Kubernetes, garantissant redondance applicative, persistance des données et tolérance aux pannes.</li>
+                </ul>
+                <div className="flex flex-wrap gap-1 mb-4">
+                  {["Kubernetes", "Podman", "PostgreSQL", "NFS", "Load Balancer","Nginx ingress controller","Crowdsec"].map((tech) => (
+                    <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
+                      {tech}
+                    </Badge>
+                  ))}
+                </div>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center w-full justify-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-green-50"
+                  style={{ textDecoration: 'none' }}
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  Voir le projet
+                </a>
+              </CardContent>
+            </Card>
+
           
           </div>
         </div>
@@ -880,7 +956,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               </CardHeader>
               <CardContent className="pt-6">
                 <div className="flex flex-wrap gap-2">
-                  {["GRC", "RGPD", "ISO 27001", "Risk Management", "Compliance", "Audit"].map((ai) => (
+                  {["PCA", "RGPD", " Audit selon la norme ISO 27001" ].map((ai) => (
                     <Badge key={ai} className="hover:scale-105 transition-transform bg-pink-100 text-pink-800">
                       {ai}
                     </Badge>
