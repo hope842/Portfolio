@@ -1175,9 +1175,6 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               <Cloud className="w-8 h-8 text-orange-500" />
             </div>
             <div>
-              <h4 className="font-semibold text-slate-800 text-lg">
-                Junior Penetration Tester (eJPT)
-              </h4>
               <p className="text-orange-500 font-medium">2025</p>
               <p className="text-slate-500 text-sm mt-2">
                 Certification pratique axée sur la mise en œuvre d’un test d’intrusion complet : reconnaissance, analyse de réseau, exploitation et post-exploitation.
@@ -1202,18 +1199,15 @@ Veille au suivi global des opérations et à la cohérence entre les différents
         <CardHeader>
           <CardTitle className="text-lg flex items-center gap-2">
             <Database className="w-8 h-8 text-green-600" />
-           Junior Penetration Tester (TryHackMe)
+           PT1 (TryHackMe)
           </CardTitle>
         </CardHeader>
-        <CardContent className="pt-6">
+        <CardContent className="pt-6"> ()
           <div className="flex items-start gap-4">
             <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center">
               <Database className="w-8 h-8 text-green-600" />
             </div>
             <div>
-              <h4 className="font-semibold text-slate-800 text-lg">
-                Junior Penetration Tester (TryHackMe)
-              </h4>
               <p className="text-green-600 font-medium">2025</p>
               <p className="text-slate-500 text-sm mt-2">
                 Certification pratique axée sur la mise en œuvre complète d’un test d’intrusion : reconnaissance, exploitation et rédaction de rapport. 
@@ -1246,9 +1240,6 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               <Database className="w-8 h-8 text-green-600" />
             </div>
             <div>
-              <h4 className="font-semibold text-slate-800 text-lg">
-                onSET -Zertifikat (eng)
-              </h4>
               <p className="text-green-600 font-medium">2025</p>
               <p className="text-slate-500 text-sm mt-2">
                 Certificat évaluant la compétence générale en anglais avec le format C-test. 
