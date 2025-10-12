@@ -431,10 +431,6 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                 </span>
               </h1>
 
-              <p className="text-xl text-slate-600 leading-relaxed">
-                Étudiante en ingénierie informatique, spécialité sécurité des systèmes informatiques et des réseaux
-              </p>
-
               <p className="text-lg text-slate-500 leading-relaxed max-w-2xl">
                 Passionnée par la cybersécurité et la protection des systèmes informatiques. Actuellement en dernière année d'ingénierie,
                 j'explore la sécurité offensive et défensive tout en me préparant à la gouvernance, le risque et la conformité (GRC).
@@ -1202,7 +1198,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
            PT1 (TryHackMe)
           </CardTitle>
         </CardHeader>
-        <CardContent className="pt-6"> ()
+        <CardContent className="pt-6">
           <div className="flex items-start gap-4">
             <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center">
               <Database className="w-8 h-8 text-green-600" />
