@@ -59,12 +59,11 @@ export default function PortfolioFr() {
 
       <div class="section">
         <h2>À Propos de Moi</h2>
-        <p>Amal Benzarti, étudiante en dernière année d’ingénierie de la sécurité des systèmes informatiques et des réseaux et 
-        j’ai commencé mon parcours en explorant la sécurité offensive et défensive. À travers le penetration testing, les cours
-         universitaires et les CTFs, j’ai progressivement construit une base de connaissances solide, tout en continuant à apprendre 
-         et à me perfectionner. Aujourd’hui, je m’apprête à entamer mon chemin vers la gouvernance, le risque et la conformité (GRC), 
-         en m’appuyant sur les compétences et la compréhension acquises dans l’offensif et le défensif. Mon objectif est de développer 
-         un profil complet, alliant connaissances techniques et vision stratégique.
+        <p>Cela fait près de deux ans que j’ai choisi de me consacrer à la cybersécurité, 
+        animée par la volonté de comprendre les systèmes dans leur globalité et de contribuer à leur protection. 
+        J’ai débuté par l’exploration des approches offensives afin de mieux saisir les enjeux de défense et de sécurité organisationnelle.
+         Aujourd’hui, je poursuis des certifications et des projets pratiques pour élargir ma vision vers la gestion et la structuration de 
+         la sécurité au sein des organisations, au-delà de l’aspect purement technique.
         </p>
       </div>
 
@@ -193,29 +192,44 @@ export default function PortfolioFr() {
       <div class="section">
         <h2>Certifications</h2>
         <div class="experience">
-          <h3>Microsoft Certified: Azure AI Fundamentals (AI-900)</h3>
-          <p class="date">2025</p>
-          <p>Validation des bases de l'IA sur Azure, incluant Computer Vision, NLP et services cognitifs.</p>
+          <h3>[PCAP-31-03] PCAP™ – Certified Associate Python Programmer</h3>
+          <p class="date">2022</p>
+          <p>Certification du Python Institute validant les compétences de base en programmation Python, y compris la syntaxe, les structures de données et les concepts fondamentaux de programmation.</p>
         </div>
         <div class="experience">
-          <h3>Oracle Certified: <span class="font-bold">Oracle Cloud Infrastructure 2025 AI Foundations Associate (1Z0-1122-25)</span></h3>
+          <h3> Junior Penetration Tester (eJPT)></h3>
           <p class="date">2025</p>
-          <p>Certification avancée en infrastructure Cloud, incluant l'intégration de l'IA, <i>deep learning</i>, <i>generative AI</i>,<br /> et les solutions de <i>Machine Learning</i> sur Oracle Cloud.</p>
+          <p>Certification pratique axée sur la mise en œuvre d’un test d’intrusion complet : reconnaissance, analyse de réseau, exploitation et post-exploitation.
+           L’eJPT de INE évalue les bases solides nécessaires pour évoluer vers des rôles techniques en sécurité offensive.</p>
+        </div>
+        <div class="experience">
+          <h3> Junior Penetration Tester (TryHackMe)></h3>
+          <p class="date">2025</p>
+          <p>Certification pratique axée sur la mise en œuvre complète d’un test d’intrusion : reconnaissance, exploitation et rédaction de rapport. 
+          Le PT1 de TryHackMe permet d’évaluer les compétences opérationnelles d’un pentester dans des conditions proches du réel.</p>
+        </div>
+        <div class="experience">
+          <h3> onSET -Zertifikat (eng)></h3>
+          <p class="date">2025</p>
+          <p>Certificat obtenu via le test de placement onSET, évaluant la compétence générale en anglais avec le format C-test. 
+          Le niveau B2 atteste d’une maîtrise intermédiaire supérieure de la langue, suffisante pour la communication professionnelle, académique et quotidienne selon le CECR</p>
         </div>
       </div>
 
       <div class="section">
         <h2>Leadership & Activités</h2>
         <div class="experience">
-          <h3>Président, Fortum Junior Entreprise</h3>
+          <h3>Secrétaire générale et fondatrice , Fortum Junior Entreprise</h3>
           <p class="date">2024-Présent</p>
-          <p>Direction de l'organisation et pilotage d'initiatives d'innovation. Organisation d'ateliers IA & Cybersécurité et hackathons.</p>
+          <p>Responsable de la coordination administrative et de l’organisation interne, assurant le bon fonctionnement de l’équipe et de ses activités.
+Veille au suivi global des opérations et à la cohérence entre les différents membres et projets de l’organisation.</p>
         </div>
         <div class="experience">
-          <h3>Organisateur Global Game Jam 2022</h3>
+          <h3>Organisatrice Global Game Jam 2022</h3>
           <p class="company">Gaming Lab Tek-up</p>
           <p class="date">2021-2022</p>
-          <p>Organisation d'événements internationaux de développement de jeux vidéo.</p>
+          <p>Participation à l’organisation de cet événement international de création de jeux vidéo, incluant la gestion des relations avec les sponsors, 
+          la coordination des participants et la direction de la campagne médiatique.</p>
         </div>
       </div>
 
@@ -225,6 +239,7 @@ export default function PortfolioFr() {
           <span class="skill">Français</span>
           <span class="skill">Anglais</span>
           <span class="skill">Arabe</span>
+          <span class="skill">Turc</span>
         </div>
       </div>
     </body>
@@ -518,17 +533,10 @@ export default function PortfolioFr() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-slate-600 leading-relaxed">
-                Je suis une étudiante passionnée par la cybersécurité qui vise l'excellence dans tout ce que j'entreprends. Mon ambition est de
-                bâtir un parcours où mon nom résonne dans le domaine de la{" "}
-                <span className="font-semibold text-blue-600">sécurité informatique</span>, reconnue pour mes compétences
-                techniques et ma capacité à protéger les systèmes et données.
-              </p>
-
-              <p className="text-lg text-slate-600 leading-relaxed">
-                Je veux être quelqu'un dont les réalisations parlent d'elles-mêmes et inspirent confiance aux équipes et
-                entreprises avec qui je collabore. Actuellement en{" "}
-                <span className="font-semibold text-blue-600">dernière année d'ingénierie</span>, j'explore la sécurité offensive et défensive
-                tout en me préparant à la gouvernance, le risque et la conformité (GRC).
+                Cela fait près de deux ans que j’ai choisi de me consacrer à la cybersécurité, animée par la volonté de comprendre les systèmes dans leur 
+                globalité et de contribuer à leur protection. J’ai débuté par l’exploration des approches offensives afin de mieux saisir les enjeux de défense 
+                et de sécurité organisationnelle. Aujourd’hui, je poursuis des certifications et des projets pratiques pour élargir ma vision vers la gestion et la 
+                structuration de la sécurité au sein des organisations, au-delà de l’aspect purement technique.
               </p>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
@@ -547,8 +555,8 @@ export default function PortfolioFr() {
 
             <div className="relative">
               <Image
-                src="/images/award-ceremony.png"
-                alt="Slim Chouaib recevant un prix lors de l'événement TEK-UP Clubs 2025"
+                src="/images/bureau.JPG"
+                alt="Bureau Executif Mandat 2024-2025"
                 width={500}
                 height={400}
                 className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
@@ -656,7 +664,7 @@ export default function PortfolioFr() {
                   Lab Active Directory
                 </CardTitle>
                 <CardDescription className="text-blue-100">
-                  Mise en place et pentest d'un laboratoire Active Directory
+                  Mise en place et pentest d'un lab Active Directory
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
@@ -667,7 +675,7 @@ export default function PortfolioFr() {
                   <li>Scénarios d'attaques réalistes et documentation des vulnérabilités</li>
                 </ul>
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {["Active Directory", "PowerShell", "Penetration Testing", "Windows Server", "Kali Linux"].map((tech) => (
+                  {["Active Directory", "PowerShell", "Penetration Testing", "Windows Server", "Kali"].map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
@@ -703,7 +711,7 @@ export default function PortfolioFr() {
                   <li>Garantie de la confidentialité et de la disponibilité des données échangées</li>
                 </ul>
                 <div className="flex flex-wrap gap-1 mb-4">
-                  {["VPN", "MPLS", "Réseau", "Sécurité", "Architecture"].map((tech) => (
+                  {["Haute disponibilité", "Routage et commutation", "Monitoring réseau", "Contrôle d’accès"].map((tech) => (
                     <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
                       {tech}
                     </Badge>
@@ -759,40 +767,7 @@ export default function PortfolioFr() {
               </CardContent>
             </Card>
 
-            <Card className="group hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] border-0 shadow-lg">
-              <CardHeader className="bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-t-lg">
-                <CardTitle className="flex items-center gap-2 text-xl">
-                  <Cloud className="w-6 h-6" />
-                  Stage d'Initiation
-                </CardTitle>
-                <CardDescription className="text-orange-100">Tunisie Telecom - Développement d'application</CardDescription>
-              </CardHeader>
-              <CardContent className="pt-6">
-                <ul className="list-disc list-inside space-y-2 text-sm text-slate-600 mb-4">
-                  <li>Développement et optimisation d'une plateforme de gestion de tâches</li>
-                  <li>Apprentissage des bonnes pratiques de développement</li>
-                  <li>Intégration dans un environnement professionnel</li>
-                  <li>Collaboration avec des équipes techniques</li>
-                </ul>
-                <div className="flex flex-wrap gap-1 mb-4">
-                  {["Java", "Développement", "Optimisation", "Gestion de Projet"].map((tech) => (
-                    <Badge key={tech} variant="outline" className="text-xs hover:scale-105 transition-transform">
-                      {tech}
-                    </Badge>
-                  ))}
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center w-full justify-center border border-orange-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent group-hover:bg-orange-50"
-                  style={{ textDecoration: 'none' }}
-                >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Voir le projet
-                </a>
-              </CardContent>
-            </Card>
+          
           </div>
         </div>
       </section>

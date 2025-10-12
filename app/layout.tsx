@@ -4,8 +4,8 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Amal El Benzarti',
-  description: 'Portfolio d\'Amal El Benzarti - Ingénieur en Sécurité des systèmes informatiques et des réseaux',
+  title: 'Amal  Benzarti',
+  description: 'Portfolio d\'Amal  Benzarti - Ingénieur en Sécurité des systèmes informatiques et des réseaux',
   generator: 'Next.js',
   icons: {
     icon: '/images/amal-portrait.jpeg',
