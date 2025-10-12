@@ -364,7 +364,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Amal El Benzarti
+                Amal Benzarti
               </span>
             </div>
 
@@ -390,7 +390,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
 
             <div className="flex gap-3">
               <a
-                href="/Amal-Benzarti-ResumeFR-2025.pdf"
+                href="/Amal-Benzarti.pdf"
                 download
                 className="inline-flex items-center border border-slate-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 style={{ textDecoration: 'none' }}
@@ -421,18 +421,18 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
                 <Award className="w-4 h-4 mr-2" />
-                Étudiante en Cybersécurité
+                Étudiante en ingénierie informatique, spécialité sécurité des systèmes informatiques et des réseaux
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold text-slate-800 leading-tight">
                 Amal
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent block">
-                  El Benzarti
+                  Benzarti
                 </span>
               </h1>
 
               <p className="text-xl text-slate-600 leading-relaxed">
-                Étudiante Ingénieur en <span className="font-semibold text-blue-600">Sécurité des systèmes informatiques et des réseaux</span>
+                Étudiante en ingénierie informatique, spécialité sécurité des systèmes informatiques et des réseaux
               </p>
 
               <p className="text-lg text-slate-500 leading-relaxed max-w-2xl">
@@ -1125,12 +1125,12 @@ Veille au suivi global des opérations et à la cohérence entre les différents
       <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto"></div>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-      {/* Azure Certification Card */}
+      {/* PCAP Certification Card */}
       <Card className="hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
         <CardHeader>
           <CardTitle className="text-lg flex items-center gap-2">
             <Cloud className="w-8 h-8 text-blue-600" />
-            Microsoft Certified: Azure AI Fundamentals (AI-900)
+           [PCAP-31-03] PCAP™ – Certified Associate Python Programmer
           </CardTitle>
         </CardHeader>
         <CardContent className="pt-6">
@@ -1140,41 +1140,33 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             </div>
             <div>
               <h4 className="font-semibold text-slate-800 text-lg">
-                Microsoft Certified: Azure AI Fundamentals (AI-900)
+                
               </h4>
               <p className="text-blue-500 font-medium">2025</p>
               <p className="text-slate-500 text-sm mt-2">
-                Validation des bases de l'IA sur Azure, incluant Computer Vision, NLP et services cognitifs.
+                Certification du Python Institute validant les compétences de base en programmation Python, y compris la syntaxe, les structures de données et les concepts fondamentaux de programmation.
               </p>
-              <div className="flex gap-2 mt-3 flex-wrap">
-                <Badge className="bg-blue-100 text-blue-800">Cloud</Badge>
-                <Badge className="bg-blue-100 text-blue-800">AI</Badge>
-                <Badge className="bg-blue-100 text-blue-800">Machine Learning</Badge>
-                <Badge className="bg-blue-100 text-blue-800">NLP</Badge>
-                <Badge className="bg-blue-100 text-blue-800">Computer Vision</Badge>
-                <Badge className="bg-blue-100 text-blue-800">Generative AI</Badge>
-                <Badge className="bg-blue-100 text-blue-800">Azure</Badge>
-              </div>
               <a
-                href="/Azure-AI-900.pdf"
-                download
-                className="inline-flex items-center border border-blue-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-blue-50 mt-4"
+                href="https://www.credly.com/badges/dc9c841d-d8f7-44c0-8dcb-48ec7792917f/linked_in_profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-green-50 mt-4"
                 style={{ textDecoration: 'none' }}
               >
-                <Download className="w-4 h-4 mr-2" />
-                Télécharger le certificat
+                <ExternalLink className="w-4 h-4 mr-2" />
+                Voir le certificat
               </a>
             </div>
           </div>
         </CardContent>
       </Card>
 
-      {/* Oracle Certification Card */}
+      {/* EJPT Certification Card */}
       <Card className="hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
         <CardHeader>
           <CardTitle className="text-lg flex items-center gap-2">
             <Cloud className="w-8 h-8 text-orange-500" />
-            Oracle Certified: Oracle Cloud Infrastructure 2025 AI Foundations Associate (1Z0-1122-25)
+           Junior Penetration Tester (eJPT)
           </CardTitle>
         </CardHeader>
         <CardContent className="pt-6">
@@ -1184,40 +1176,33 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             </div>
             <div>
               <h4 className="font-semibold text-slate-800 text-lg">
-                Oracle Cloud Infrastructure 2025 AI Foundations Associate (1Z0-1122-25)
+                Junior Penetration Tester (eJPT)
               </h4>
               <p className="text-orange-500 font-medium">2025</p>
               <p className="text-slate-500 text-sm mt-2">
-                Certification avancée en infrastructure Cloud, incluant l'intégration de l'IA, <i>deep learning</i>, <i>generative AI</i>,<br /> et les solutions de <i>Machine Learning</i> sur Oracle Cloud.
+                Certification pratique axée sur la mise en œuvre d’un test d’intrusion complet : reconnaissance, analyse de réseau, exploitation et post-exploitation.
               </p>
-              <div className="flex gap-2 mt-3 flex-wrap">
-                <Badge className="bg-orange-100 text-orange-800">Cloud</Badge>
-                <Badge className="bg-orange-100 text-orange-800">AI</Badge>
-                <Badge className="bg-orange-100 text-orange-800">Machine Learning</Badge>
-                <Badge className="bg-orange-100 text-orange-800">Deep Learning</Badge>
-                <Badge className="bg-orange-100 text-orange-800">Generative AI</Badge>
-                <Badge className="bg-orange-100 text-orange-800">Oracle</Badge>
-              </div>
               <a
-                href="/Oracle-AI-Foundations.pdf"
-                download
-                className="inline-flex items-center border border-orange-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-orange-50 mt-4"
+                href="https://certs.ine.com/5b16fd71-c2d7-48ad-94b6-a142a3b123d6#acc.N67F1lWm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-green-50 mt-4"
                 style={{ textDecoration: 'none' }}
               >
-                <Download className="w-4 h-4 mr-2" />
-                Télécharger le certificat
+                <ExternalLink className="w-4 h-4 mr-2" />
+                Voir le certificat
               </a>
             </div>
           </div>
         </CardContent>
       </Card>
 
-      {/* Neo4j Certification Card */}
+      {/* pt1 */}
       <Card className="hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
         <CardHeader>
           <CardTitle className="text-lg flex items-center gap-2">
             <Database className="w-8 h-8 text-green-600" />
-            Neo4j Certified Professional
+           Junior Penetration Tester (TryHackMe)
           </CardTitle>
         </CardHeader>
         <CardContent className="pt-6">
@@ -1227,23 +1212,50 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             </div>
             <div>
               <h4 className="font-semibold text-slate-800 text-lg">
-                Neo4j Certified Professional
+                Junior Penetration Tester (TryHackMe)
               </h4>
               <p className="text-green-600 font-medium">2025</p>
               <p className="text-slate-500 text-sm mt-2">
-                Certification professionnelle Neo4j validant l'expertise en bases de données graphiques, 
-                requêtes Cypher, modélisation de données relationnelles et développement d'applications graphiques.
+                Certification pratique axée sur la mise en œuvre complète d’un test d’intrusion : reconnaissance, exploitation et rédaction de rapport. 
               </p>
-              <div className="flex gap-2 mt-3 flex-wrap">
-                <Badge className="bg-green-100 text-green-800">Graph Database</Badge>
-                <Badge className="bg-green-100 text-green-800">Cypher</Badge>
-                <Badge className="bg-green-100 text-green-800">Neo4j</Badge>
-                <Badge className="bg-green-100 text-green-800">Data Modeling</Badge>
-                <Badge className="bg-green-100 text-green-800">Graph Analytics</Badge>
-                <Badge className="bg-green-100 text-green-800">NoSQL</Badge>
-              </div>
               <a
-                href="https://graphacademy.neo4j.com/c/190d2bf2-ecea-49cb-a10f-683b4f4f8ca4"
+                href="https://www.credly.com/badges/58b54d16-75ee-4859-929c-320bcfbfa9ac/public_url"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-green-50 mt-4"
+                style={{ textDecoration: 'none' }}
+              >
+                <ExternalLink className="w-4 h-4 mr-2" />
+                Voir le certificat
+              </a>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+      {/* onSET */}
+      <Card className="hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
+        <CardHeader>
+          <CardTitle className="text-lg flex items-center gap-2">
+            <Database className="w-8 h-8 text-green-600" />
+           onSET -Zertifikat (eng)
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="pt-6">
+          <div className="flex items-start gap-4">
+            <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center">
+              <Database className="w-8 h-8 text-green-600" />
+            </div>
+            <div>
+              <h4 className="font-semibold text-slate-800 text-lg">
+                onSET -Zertifikat (eng)
+              </h4>
+              <p className="text-green-600 font-medium">2025</p>
+              <p className="text-slate-500 text-sm mt-2">
+                Certificat évaluant la compétence générale en anglais avec le format C-test. 
+                Le niveau B2 atteste d’une maîtrise intermédiaire supérieure de la langue, suffisante pour la communication professionnelle, académique et quotidienne selon le CECR
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1S0pMSwAixc2Ep1aJwHgcuVTi4saaRgoE/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center border border-green-200 rounded-md px-3 py-2 text-sm font-medium hover:scale-105 transition-transform bg-transparent hover:bg-green-50 mt-4"
@@ -1316,7 +1328,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2025 Amal El Benzarti. Tous droits réservés.</p>
+          <p>&copy; 2025 Amal Benzarti. Tous droits réservés.</p>
         </div>
       </footer>
       </div>
