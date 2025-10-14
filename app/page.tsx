@@ -1048,6 +1048,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             <div className="relative">
               <Image
                 src="/images/digital (1).JPG"
+                alt="Digital Future"
                 width={500}
                 height={400}
                 className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
