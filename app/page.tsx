@@ -525,16 +525,12 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             <h2 className="text-4xl font-bold text-slate-800 mb-4">À Propos de Moi</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto"></div>
           </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
               <p className="text-lg text-slate-600 leading-relaxed">
                 Cela fait près de deux ans que j’ai choisi de me consacrer à la cybersécurité, animée par la volonté de comprendre les systèmes dans leur 
                 globalité et de contribuer à leur protection. J’ai débuté par l’exploration des approches offensives afin de mieux saisir les enjeux de défense 
                 et de sécurité organisationnelle. Aujourd’hui, je poursuis des certifications et des projets pratiques pour élargir ma vision vers la gestion et la 
                 structuration de la sécurité au sein des organisations, au-delà de l’aspect purement technique.
               </p>
-
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-4 bg-blue-50 rounded-lg hover:scale-105 transition-transform">
                   <Code className="w-8 h-8 text-blue-600 mx-auto mb-2" />
@@ -547,24 +543,6 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                   <p className="text-sm text-slate-600">Gouvernance & Conformité</p>
                 </div>
               </div>
-            </div>
-
-            {/* <div className="relative">
-              <Image
-                src="/images/amal.jpeg"
-                alt="Bureau Executif Mandat 2024-2025"
-                width={500}
-                height={400}
-                className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
-                <div className="flex items-center gap-2">
-                  <Award className="w-5 h-5 text-yellow-500" />
-                  <span className="text-sm font-medium">Bureau Executif - Fortum Junior Entreprise</span>
-                </div>
-              </div>
-            </div> */}
-          </div>
         </div>
       </section>
 
