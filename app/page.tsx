@@ -551,7 +551,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
 
             <div className="relative">
               <Image
-                src="/images/bureau.JPG"
+                src="/images/amal.jpeg"
                 alt="Bureau Executif Mandat 2024-2025"
                 width={500}
                 height={400}
