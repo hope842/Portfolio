@@ -1020,24 +1020,47 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                   </p>
                 </CardContent>
               </Card>
-              <Card className="border-l-4 border-l-red-500 hover:shadow-xl transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="text-lg">Adjointe Trésorier</CardTitle>
-                  <CardDescription>Rotaract Club Tunis El Bey (2022-2023)</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-slate-600">
-                    Participe à la gestion financière du club et au suivi des opérations comptables sous la 
-                    supervision du trésorier principal. Contribue à assurer la 
-                    transparence des dépenses et la bonne utilisation des fonds pour les actions du club.
-                  </p>
-                </CardContent>
-              </Card>
-
-              
             </div>
           </div>
         </div>
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-8">
+              <Card className="border-l-4 border-l-purple-500 hover:shadow-xl transition-all duration-300">
+                <CardHeader>
+                  <CardTitle className="text-lg flex items-center gap-2">
+                    <Users className="w-5 h-5 text-purple-600" />
+                    Digital Future - Tunisian German Academic Congress By Tek-Up et SUAS
+                  </CardTitle>
+                  <CardDescription>2024 - Présent</CardDescription>
+                </CardHeader>Décembre 2023
+                <CardContent>
+                  <p className="text-slate-600">
+                    Participation au German Academic Congress, un congrès d’une semaine organisé conjointement par Tekup 
+                    et Schmalkalden University en Allemagne, financé par le DAAD. Des workshops sur le thème « Scope and 
+                    Limits of Artificial Intelligence » ont été animés par des professeurs allemands et tunisiens, réunissant 
+                    des étudiants des deux universités. Cette expérience a favorisé les échanges interculturels, l’apprentissage 
+                    collaboratif et la pratique de plusieurs langues tout au long de la semaine.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="relative">
+              <Image
+                src="/images/digital(1).JPG"
+                alt="digital future"
+                width={500}
+                height={400}
+                className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-lg shadow-lg">
+                <div className="flex items-center gap-2">
+                  <Users className="w-5 h-5 text-purple-500" />
+                  <span className="text-sm font-medium">Remise de Certificats</span>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
 
       {/* Section Éducation & Certifications */}
