@@ -549,7 +549,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               </div>
             </div>
 
-            <div className="relative">
+            {/* <div className="relative">
               <Image
                 src="/images/amal.jpeg"
                 alt="Bureau Executif Mandat 2024-2025"
@@ -563,7 +563,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                   <span className="text-sm font-medium">Bureau Executif - Fortum Junior Entreprise</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
