@@ -988,8 +988,8 @@ Veille au suivi global des opérations et à la cohérence entre les différents
 
             <div className="relative">
               <Image
-                src="/images/team-photo.jpeg"
-                alt="Équipe Fortum Junior Entreprise avec Slim Chouaib"
+                src="/images/bureau.JPG"
+                alt="Bureau Éxécutif de Fortum Junior Entreprise"
                 width={500}
                 height={400}
                 className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
@@ -997,7 +997,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-lg shadow-lg">
                 <div className="flex items-center gap-2">
                   <Users className="w-5 h-5 text-purple-500" />
-                  <span className="text-sm font-medium">Équipe FJE</span>
+                  <span className="text-sm font-medium">Bureau Éxécutif de Fortum Junior Entreprise</span>
                 </div>
               </div>
             </div>
@@ -1006,8 +1006,8 @@ Veille au suivi global des opérations et à la cohérence entre les différents
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative order-2 lg:order-1">
               <Image
-                src="/images/speaking-event.png"
-                alt="Slim Chouaib présentant lors de l'événement TEK-UP"
+                src="/images/Hacknbiz2.jpeg"
+                alt="Secrétaire général et membre du comité organisateur"
                 width={500}
                 height={400}
                 className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
@@ -1015,7 +1015,6 @@ Veille au suivi global des opérations et à la cohérence entre les différents
               <div className="absolute -top-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
                 <div className="flex items-center gap-2">
                   <Mic className="w-5 h-5 text-blue-500" />
-                  <span className="text-sm font-medium">Conférencier</span>
                 </div>
               </div>
             </div>
@@ -1023,13 +1022,14 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             <div className="space-y-8 order-1 lg:order-2">
               <Card className="border-l-4 border-l-red-500 hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-lg">Responsable Communication</CardTitle>
-                  <CardDescription>Interact Club Hannibal (2019-2021)</CardDescription>
+                  <CardTitle className="text-lg">Adjointe Trésorier</CardTitle>
+                  <CardDescription>Rotaract Club Tunis El Bey (2022-2023)</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Direction des stratégies de communication et initiatives de sensibilisation communautaire,
-                    développement de compétences en leadership et organisation à travers des projets de service.
+                    Participe à la gestion financière du club et au suivi des opérations comptables sous la 
+                    supervision du trésorier principal. Contribue à assurer la 
+                    transparence des dépenses et la bonne utilisation des fonds pour les actions du club.
                   </p>
                 </CardContent>
               </Card>
@@ -1041,8 +1041,12 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Organisation de l'événement Fortum Junior Entreprise IA & Cybersécurité avec ateliers et hackathon
-                    de 12h, démonstrant des capacités de gestion d'événements et de leadership technique.
+                    Participation à l’organisation du Hack’N’Biz, un hackathon de 12 heures dédié à l’IA et à 
+                    la cybersécurité appliquées au monde des affaires.
+                    Contribution à la planification logistique, à la coordination des équipes techniques, et à 
+                    la gestion des ateliers et conférences tout au long de l’événement.
+                    Cette expérience a permis de démontrer des compétences en gestion d’événements, en
+                     leadership technique et en communication interdisciplinaire entre profils techniques et business.
                   </p>
                 </CardContent>
               </Card>
