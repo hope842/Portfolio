@@ -956,31 +956,18 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
                     <Users className="w-5 h-5 text-purple-600" />
-                    Étudiante en Cybersécurité
+                    Secrétaire générale et Fondatrice
                   </CardTitle>
-                  <CardDescription>2023 - Présent</CardDescription>
+                  <CardDescription>2024 - Présent</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Spécialisation en sécurité des systèmes informatiques et des réseaux. Exploration de la sécurité offensive et défensive,
-                    préparation à la gouvernance, le risque et la conformité (GRC).
-                  </p>
-                </CardContent>
-              </Card>
-            
-
-              <Card className="border-l-4 border-l-orange-500 hover:shadow-xl transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-2">
-                    <Mic className="w-5 h-5 text-orange-600" />
-                    Stage d'Initiation
-                  </CardTitle>
-                  <CardDescription>Juillet 2022</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-slate-600">
-                    Stage d'initiation chez Tunisie Telecom, développement et optimisation d'une plateforme de gestion de tâches.
-                    Première expérience professionnelle dans le domaine du développement d'applications.
+                    En 2024, nous avons fondé Fortum Junior Entreprise, un projet associatif que 
+                    nous avons structuré de A à Z : création des processus internes, préparation des 
+                    audits et pilotage de projets réels. Durant la phase Junior Création, j’ai contribué
+                     à lancer plusieurs initiatives, dont l’événement Hack’N’Biz, tout en coordonnant le
+                      recrutement et la gestion de l’équipe. Cette expérience m’a permis de renforcer mes 
+                      compétences en gestion, organisation et conduite de projet.
                   </p>
                 </CardContent>
               </Card>
@@ -1006,7 +993,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative order-2 lg:order-1">
               <Image
-                src="/images/Hacknbiz2.jpeg"
+                src="/images/securinets.jpeg"
                 alt="Secrétaire général et membre du comité organisateur"
                 width={500}
                 height={400}
@@ -1020,6 +1007,19 @@ Veille au suivi global des opérations et à la cohérence entre les différents
             </div>
 
             <div className="space-y-8 order-1 lg:order-2">
+              <Card className="border-l-4 border-l-teal-500 hover:shadow-xl transition-all duration-300">
+                <CardHeader>
+                  <CardTitle className="text-lg">Membre</CardTitle>
+                  <CardDescription>Securinets Tek-Up 2024-2025</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600">
+                     Participation à l’organisation de workshops et d’événements internes de Securinets Tek-Up, 
+                     avec contribution à la planification logistique et à la coordination des activités pour assurer le bon déroulement des sessions. 
+                     Participation active à des CTFs organisés par le club, mettant en pratique des compétences en sécurité offensive et défensive.
+                  </p>
+                </CardContent>
+              </Card>
               <Card className="border-l-4 border-l-red-500 hover:shadow-xl transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="text-lg">Adjointe Trésorier</CardTitle>
@@ -1034,22 +1034,7 @@ Veille au suivi global des opérations et à la cohérence entre les différents
                 </CardContent>
               </Card>
 
-              <Card className="border-l-4 border-l-teal-500 hover:shadow-xl transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="text-lg">Événements Récents</CardTitle>
-                  <CardDescription>2025</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-slate-600">
-                    Participation à l’organisation du Hack’N’Biz, un hackathon de 12 heures dédié à l’IA et à 
-                    la cybersécurité appliquées au monde des affaires.
-                    Contribution à la planification logistique, à la coordination des équipes techniques, et à 
-                    la gestion des ateliers et conférences tout au long de l’événement.
-                    Cette expérience a permis de démontrer des compétences en gestion d’événements, en
-                     leadership technique et en communication interdisciplinaire entre profils techniques et business.
-                  </p>
-                </CardContent>
-              </Card>
+              
             </div>
           </div>
         </div>
